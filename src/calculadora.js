@@ -32,7 +32,7 @@ class Calculadora{
         }
         return producto;
     }
-
+/*
     dividir( a, b ){
         let cociente = 0;
         if( b == 0){
@@ -44,7 +44,7 @@ class Calculadora{
             }
             return cociente;
         }
-
+*/
     }
 }
 
