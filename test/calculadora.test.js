@@ -51,4 +51,7 @@ describe('Metodo Calculadora.Potencia', () => {
     it(' Elevar un numero a 1 resulta en el mismo numero', () => {
         expect(cal.potencia(2, 1)).to.equal(2);
     });
+    it(' Elevar un numero a 0 resulta en 1', () => {
+        expect(cal.potencia(2, 0)).to.equal(1);
+    });
 });
