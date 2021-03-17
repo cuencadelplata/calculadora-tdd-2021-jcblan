@@ -48,4 +48,7 @@ describe('Metodo Calculadora.Potencia', () => {
     it(' Elevar un numero a un exponente resulta en su potencia', () => {
         expect(cal.potencia(2, 2)).to.equal(4);
     });
+    it(' Elevar un numero a 1 resulta en el mismo numero', () => {
+        expect(cal.potencia(2, 1)).to.equal(2);
+    });
 });
