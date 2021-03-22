@@ -46,6 +46,10 @@ class Calculadora{
         }
 
     }
+
+    potencia( a, b){
+        return a ** b;
+    }
 }
 
 module.exports = Calculadora;
