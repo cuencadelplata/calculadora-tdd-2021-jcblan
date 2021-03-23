@@ -1,10 +1,12 @@
- export class Calculadora{
+import { ISabeSumar } from "./ISabeSumar";
+
+ export class Calculadora implements ISabeSumar{
     constructor()
     {
 
     }
 
-    sumar( a: number, b: number ){
+    sumar( a: number, b: number ): number{
         return a + b;
     }
 
