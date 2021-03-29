@@ -2,6 +2,7 @@ import { expect } from 'chai';
 import { Calculadora } from '../src/calculadora';
 import { ISabeSumar } from '../src/ISabeSumar';
 
+
 function comprobarInterface(arg: Calculadora){
         return (arg as ISabeSumar).sumar(2,2) !== undefined;
 }

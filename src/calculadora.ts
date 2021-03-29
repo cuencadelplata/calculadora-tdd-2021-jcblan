@@ -1,9 +1,13 @@
+import 'reflect-metadata';
 import { ISabeSumar } from "./ISabeSumar";
+import { injectable } from 'tsyringe';
 
- export class Calculadora implements ISabeSumar{
+ 
+@injectable()
+export class Calculadora implements ISabeSumar{
+    
     constructor()
     {
-
     }
 
     sumar( a: number, b: number ): number{
